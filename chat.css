@@ -1,0 +1,98 @@
+.chat{
+  font-size: 0.6em;
+  font-weight: 400;
+}
+
+.left_chat{
+  height: 30px;
+  width:139px;
+  background-color: var(--chat_on_the_left);
+  border-radius: 10px 10px 10px 4px;
+  color: var(--text_on_the_left);
+  margin-left:9px;
+  margin-top: 9px;
+  padding-left: 8px;
+  padding-top: 8px;
+
+}
+
+
+.left_chat3{
+    height: 45px;
+}
+
+.right_side{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.right_chat{
+  height: auto;
+  width:139px;
+  background-color: var(--White);
+  border-radius: 10px 10px 4px;
+  padding: 10px;
+
+}
+
+.right_chat2{
+  width:80px;
+}
+
+.price_chat{
+  height: 24px;
+  width:175px;
+  background-image: linear-gradient(to right, var(--grad_pink),  var(--grad_Violet));
+  border-radius: 10px 10px 10px 4px;
+  margin-bottom: 10px;
+  color: var(--White);
+  margin-left:9px;
+  margin-top:10px;
+  padding-top: 10px;
+  font-size: 0.6em;
+}
+
+.time{
+  font-weight: 100;
+}
+
+.price1{
+  font-size: 1.1em;
+  margin-left: 40px;
+}
+
+.price2{
+  font-size: 1.1em;
+  margin-left: 55px;
+}
+
+.fa-circle{
+  margin-left: 9px;
+  margin-right: 10px;
+}
+
+.placeholder{
+  background-color: var(--White);
+  border-radius: 48px;
+  height: 33px;
+  width: 86%;
+  position: relative;
+  top:23px;
+  left:10px;
+  font-weight: 100;
+  font-size: 0.6em;
+  color: var(--placeholder_text);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 15px;
+  justify-content: space-between;
+  }
+
+.fa-chevron-circle-right{
+  color: var(--submit_button_background);
+  height: 28px;
+  width: 28px;
+  padding-right: 15px;
+}
