@@ -1,0 +1,122 @@
+/* DÉBUT DES MESSAGES */
+
+.chat{
+  font-size: 8.5px;
+}
+/* DÉBUT MESSAGES DE GAUCHE*/
+.left_chat{
+  width:119px;
+  background-color: var(--chat_on_the_left);
+  border-radius: 10px 10px 10px 4px;
+  color: var(--text_on_the_left);
+  margin-left:9px;
+  margin-top: 9px;
+  padding: 8px 8px;
+
+}
+
+
+/* FIN MESSAGES DE GAUCHE*/
+
+
+/* DÉBUT MESSAGES DE DROITE*/
+
+.right_side{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 10px;
+}
+
+.dogs{
+      margin-top: 8px;  }
+
+.dog{
+  height: 42px;
+  width: 42px;
+  border-radius: 10px;
+}
+
+.right_chat{
+  height: auto;
+  width:122px;
+  background-color: var(--White);
+  border-radius: 10px 10px 4px;
+  padding: 8px;
+  margin-top: 5px;
+  box-shadow: /*droite*/1px 9px/*bas*/ 10px  rgba(0, 0, 0, 0.1),
+  0/*gauche*/ 0/*haut*/ 0px  rgba(0, 0, 0, 0.1);
+}
+
+.right_chat2{
+  width:72px;
+}
+
+/* FIN MESSAGES DE DROITE*/
+
+/*DÉBUT PRIX*/
+
+.price_chat{
+  height: 21px;
+  width:160px;
+  background-image: linear-gradient(to right, var(--grad_pink),  var(--grad_Violet));
+  border-radius: 10px 10px 10px 4px;
+  color: var(--White);
+  margin-left:9px;
+  margin:10px 0px 5px 9px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.time{
+
+  font-weight: 100;
+}
+
+.price{
+    font-size: 1.5em;
+      margin-left: 33px;
+}
+.price2{
+  margin-left: 48px;
+}
+
+.anno{
+  margin-left: 9px;
+  margin-right: 10px;
+
+  height: 11px;
+  width: 11px;
+  border: 1px solid  rgba(255, 255, 255, 0.5);
+  border-radius: 50px;
+}
+/*FIN PRIX*/
+
+/*DÉBUT TEXTE À ENVOYER*/
+.placeholder{
+  background-color: var(--White);
+  border-radius: 48px;
+  height: 33px;
+  width: 86%;
+  position: relative;
+  top:11px;
+  left:10px;
+  font-weight: 100;
+  font-size: 0.6em;
+  color: var(--placeholder_text);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 15px;
+  justify-content: space-between;
+  }
+
+.message_arrow{
+background-color: var(--submit_button_background);
+border-radius: 50px;
+margin-right: 6px;
+font-size: 22px;
+padding: 0px 9.5px;
+}
+/*FIN TEXTE À ENVOYER*/
