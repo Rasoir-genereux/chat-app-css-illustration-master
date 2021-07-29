@@ -27,7 +27,7 @@ body{
 }
 
 
-.container{
+main{
   display: flex;
   flex-direction: row;
   height: 100vh;
@@ -177,7 +177,7 @@ section p{
 
 
   @media all and (max-width: 950px){
-    .container{
+    main{
       height: auto;
       display: flex;
       flex-direction: column;
@@ -208,7 +208,7 @@ section p{
 
   }
 
-  .attribution {
+  footer{
     font-size: 11px; text-align: center;
     margin-top: 50px;
   }
